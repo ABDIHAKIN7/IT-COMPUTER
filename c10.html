@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>  <legend> Student registration form</legend>
+        <label for="firstname">First Name:</label><br>
+        <input type="firsname" id="firstname" name="firstname" placeholder="Enter first name"><br><br>
+        <label for="middlename">Middle Name:</label> <br>
+        <input type="middlename" name="middlename" id="middlename" placeholder="Enter middle name"><br><br>
+        <label for="lastname">Last Name:</label><br>
+        <input type="lastname" name="lastname" id="lastname" placeholder="Enter last name"><br><br>
+        <label for="Email">Email:</label><br>
+        <input type="email" name="Email" id="Email" placeholder="Enter email"><br><br>
+        <label for="Password">Password:</label><br>
+        <input type="password" name="password" id="password" placeholder="Enter Password"><br><br>
+        <label for="confirmpassword">Confirm Password:</label><br>
+        <input type="password" name="confirmpassword" id="confirmpassword" placeholder="Enter Confirm password"> <br><br>
+        <label for="mobile">Mobile:</label><br>
+        <input type="tel" name="mobile" id="mobile" placeholder="Enter mobile"><br><br>
+         <label for="html">HTML</label>
+        <input type="checkbox" id="HTML" name="html"><br><br>
+        <label for="css">CSS</label>
+        <input type="checkbox" name="css" id="css"><br><br>
+         <label for="python">python</label>
+         <input type="checkbox" id="python" checked><br><br>
+
+         <h2>choose your gender</h2>
+         <label for="male">male</label>
+         <input type="radio"  id="male" name="gender" checked><br>
+         <label for="female">female</label>
+         <input type="radio" name="gender" id="female"><br>
+         <label for="khuntha">khuntha</label>
+         <input type="radio" name="gender" id="khuntha"><br><br>
+
+         <h1>select your district</h1>
+         <select name="district" id="district" size="8" multiple>
+            <option value="hodan" selected>hodan</option>
+            <option value="howlwadag">howlwadag</option>
+            <option value="sanca">sinay</option>
+            <option value="suqa xolaha">suqa xolaha</option>
+            <option value="jarjinka">jarjinka</option>
+            <option value="ceelasha">ceelasha</option>
+            <option value="banaadir">banaadir</option>
+            <option value="karaan">karaan</option>
+         </select><br><br>
+
+         <label for="comment">comment</label>
+         <textarea name="comment" id="comment" placeholder="lets know your idea" rows="5" cols="15" ></textarea><br><br>
+
+         <h1>Select Your Nationality</h1>
+         <input list="countries" >
+         <datalist id="countries">
+            <option value="somali">somalia</option>
+            <option value="saudi">saudi</option>
+            <option value="holand">holand</option>
+            <option value="canada">canada</option>
+         </datalist><br><br>
+
+         <h2>selec color</h2>
+         <input type="color" name="color" ><br><br>
+         <label for="dob">select your dob</label>
+         <input type="date" name="DOB"><br><br>
+         <label for="rating"></label>
+         <input type="number" name="rating" min="1" max="5"><br><br>
+         <label for="rating">rate your satisfcation in 1/100</label>
+         <input type="range" min="1" max="100">
+
+
+
+        <input type="submit" name="send_date" value="Send Date">&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="clear">
+    </fieldset>
+    </form>
+</body>
+</html>
