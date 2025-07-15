@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Booking - My Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Guest Booking</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="help.html">Help</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Fill the Booking Form</h2>
+      <form>
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required placeholder="Enter your name" />
+          <label for="major">Major:</label>
+          <select id="major" name="major">
+            <option value="CS">Medicine</option>
+            <option value="IT">Nursing</option>
+            <option value="SE">Pharmacy</option>
+          </select>
+          <p>Gender:</p>
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label>
+          <p>Hobbies:</p>
+          <input type="checkbox" id="reading" name="hobbies" value="reading" />
+          <label for="reading">Reading</label>
+          <input type="checkbox" id="coding" name="hobbies" value="coding" />
+          <label for="coding">Coding</label>
+          <input type="checkbox" id="traveling" name="hobbies" value="traveling" />
+          <label for="traveling">Traveling</label>
+          <label for="comments">Comments:</label>
+          <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter any comments..."></textarea>
+          <br /><br />
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p> This is  My Website </p>
+  </footer>
+</body>
+</html>
